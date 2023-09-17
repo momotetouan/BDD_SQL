@@ -1,0 +1,21 @@
+Soit la base de données généalogique suivante :
+
+Personne (numPers, nomPers, prenomPers, sexePers)
+PereDe (numPersEnfant, numPersPere)
+MereDe (numPersEnfant, numPersMere)
+
+
+Ecrire en SQL les requêtes répondant aux questions suivantes (Donner les noms et prénoms des
+personnes pour chaque réponse) :
+
+R1 Quelles personnes ont au moins deux enfants ?
+R2 Quelles femmes sont grand-mères ? Quels hommes sont grand-pères ?
+R3 Qui est le père de Paul Durand ?
+R4 Qui sont les frères et sœurs utérins (c’est-à-dire ayant la même mère) de Jeanne Dupont ?
+R5 Quelles femmes ont le plus d’enfants ?
+R6 Quelles sont les personnes sans enfant ?
+R7 Quelles personnes n’ont eu des enfants qu’avec une seule autre personne connue ?
+R8 Quelles sont les personnes dont on ne connait pas les deux parents ?
+R9 Quelles sont les personnes dont on ne connait pas au moins l’un des deux parents ?
+R10 Quelles personnes sont fils/fille unique ?
+R11 Qui sont les cousins de Luc Durand ?
